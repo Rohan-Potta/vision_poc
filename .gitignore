@@ -1,7 +1,13 @@
-be\venv
-be\__pycache__
+# Python backend
+be/venv/
+be/__pycache__/
+*.pyc
 .env
 
-fe\node_modules
-fe\dist
-fe\uploads
+# Frontend
+fe/node_modules/
+fe/dist/
+fe/uploads/
+
+# General
+.DS_Store
