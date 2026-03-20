@@ -1,0 +1,7 @@
+be\venv
+be\__pycache__
+.env
+
+fe\node_modules
+fe\dist
+fe\uploads
