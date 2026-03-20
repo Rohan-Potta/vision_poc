@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Vision Language POC</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vision Language POC</h1>
+
+      <div class="upload-card">
+        <label class="file-label">
+          <input id="fileInput" type="file" accept="image/*" name="image" />
+          Choose an image
+        </label>
+
+        <div id="previewContainer" class="preview">
+          <img id="preview" src="" alt="preview" style="display:none;" />
+        </div>
+
+        <button id="uploadBtn" class="btn" disabled>Upload</button>
+
+        <div id="status" class="status"></div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

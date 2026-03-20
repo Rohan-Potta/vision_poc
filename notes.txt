@@ -1,0 +1,11 @@
+Vision Models:
+
+How to understand images
+Vlms => Vision Language Models
+
+The first thing is vision QA , and ask it a question based on the image within it.
+The second is captioning based on the images
+The third can be for document understanding , like scanned reciept
+Data heavy visuals => We can do graph analysis
+
+This is done with the LLM a text promt , and within that what it needs is that it converts that to promts and then with the input it gives us the output , and now before giving it to the llm the vision encoder puts it in there
